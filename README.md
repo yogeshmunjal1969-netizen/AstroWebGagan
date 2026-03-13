@@ -39,6 +39,14 @@ docker run --rm -p 80:80 my-app:latest
 
 Then visit: http://localhost
 
+### Run with Docker Compose
+
+```bash
+docker-compose up --build
+```
+
+Then visit: http://localhost
+
 ### Deploy on a Hostinger VPS
 
 1. Ensure Docker is installed on your VPS.
